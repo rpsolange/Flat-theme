@@ -1,0 +1,77 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,700,300);
+
+.clearfix {
+  *zoom: 1;
+}
+
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.clearfix:after {
+  clear: both;
+}
+
+/* Header */
+.logo{
+	display: block;
+	padding: 5% 0%;
+}
+.navbar{
+	padding: 1% 8%;
+	background-color: #34495E;
+	margin-bottom: 0px;
+}
+.navbar-default {
+	border: none;
+	border-radius: 0;
+}
+.navbar-default .navbar-nav>li>a{
+	color: #A2AAB2;
+}
+.navbar-default .navbar-nav>li>a:hover{
+	color: white;
+	background-color: #2C3E50;
+}
+
+/* Background tiger - section*/
+.carousel-control{
+	width: 10%;
+}
+.carousel-caption{
+	bottom: 40%;
+	text-align: left;
+	left: 10%;
+}
+.carousel-caption h2{
+	font-size: 2.4em;
+}
+/*.tiger{
+	background-image: url("../images/slider/bg1.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 80vh;
+	color: white;
+}
+.tiger .container{
+	padding: 16% 4% ;
+}*/
+/* redes */
+.redes{
+	background-color: #2ECC71;
+	color: white;
+	padding: 4%;
+}
+.icon{
+	margin-top: 70%;
+	font-size: 2em;
+	display: flex;
+  	align-items: center;
+   	justify-content: center;
+	width: 55px;
+	height: 55px;
+	border-radius: 50%;
+	background-color: rgba(0, 0, 0, 0.4);
+}
