@@ -38,26 +38,23 @@
 
 /* Background tiger - section*/
 .carousel-control{
-	width: 10%;
+	width: 6%;
 }
-.carousel-caption{
+.tiger{
 	bottom: 40%;
 	text-align: left;
 	left: 10%;
 }
-.carousel-caption h2{
+.tiger h2{
 	font-size: 2.4em;
 }
-/*.tiger{
-	background-image: url("../images/slider/bg1.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
-	height: 80vh;
-	color: white;
+.man{
+	bottom: 40%;
 }
-.tiger .container{
-	padding: 16% 4% ;
-}*/
+.man h2, .man p{
+	background-color: rgba(0, 0, 0, 0.85);
+	padding: 1%;
+}
 /* redes */
 .redes{
 	background-color: #2ECC71;
@@ -65,7 +62,7 @@
 	padding: 4%;
 }
 .icon{
-	margin-top: 70%;
+	margin-top: 65%;
 	font-size: 2em;
 	display: flex;
   	align-items: center;
@@ -74,4 +71,57 @@
 	height: 55px;
 	border-radius: 50%;
 	background-color: rgba(0, 0, 0, 0.4);
+}
+/* Lastest Projects - Section */
+.project{
+	background-color: #F5F5F5;
+	padding: 4% 0%;
+}
+.btn-red{
+	width: 25%;
+	background-color: #D9534F;
+	border-radius: 4px;
+	border: 1px solid #D43F3A;
+	text-align: center;
+}
+.boton{
+	display: inline-block;
+	padding: 12%;
+	color: white;
+	font-weight: bold;
+}
+.boton:first-child{
+	border-right: 1px solid #D43F3A;
+}
+.boton:hover{
+	text-decoration: none;
+}
+.caja img{
+	width: 100%;
+}
+.caja p{
+	margin: 2% 0%;
+}
+.caja{
+	padding: 3% 5% 0%;
+	background-color: white;
+	border: 1px solid #EEEEEE;
+}
+/* What our clients say */
+.clients{
+	background-color: #E74C3C;
+	color: white;
+	padding: 3% 0%;
+}
+.clients .row{
+	margin: 4% 0%;
+}
+.clients .row .borde{
+	border-left: 5px solid white;
+}
+.clients .row p:first-child{
+	font-size: 1.4em;
+}
+.clients .row p:last-child{
+	font-size: 0.9em;
 }
