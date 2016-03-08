@@ -36,58 +36,6 @@
 	color: white;
 	background-color: #2C3E50;
 }
-/* Footer */
-
-.pre-footer{
-	background-color: #34495E;
-	padding: 2% 0%;
-}
-footer{
-	background-color: #2C3E50;
-	padding: 1% 0%
-}
-footer p{
-	top: 12px;
-    position: relative;
-
-}
-footer a{
-	color:white;
-}
-footer .nav>li>a:hover {
-    text-decoration: none;
-    background-color: rgba(238, 238, 238, 0.07);
-    color: white;
-}
-.pre-footer, footer{
-	color:white; 
-}
-.pre-footer h3 {
-	margin-bottom: 25px;
-}
-.pre-footer ul {
-	list-style-type: none
-}
-.pre-footer ul li i{
-	margin-right: 10px;
-}
-.pre-footer .box-1{
-	display: inline-block;
-    position: absolute;
-}
-.pre-footer .box-2{
-	display: inline-block;
-    margin-left: 70px;
-}
-.pre-footer .btn{
-	background-color: #D9534F;
-    border-color: transparent;
-    color: white;
-}
-.pre-footer .box-latest{
-	margin-bottom: 2%;
-}
-
 /* -- Home Page -- */
 /* Background tiger - section*/
 .carousel-control{
@@ -198,7 +146,7 @@ footer .nav>li>a:hover {
 	width: 100%;
 	border-radius: 5px 5px 0 0;
 }
-.p-blog, .menu-blog li, .menu-blog, .icono li, .tag p, .btn-blue, {
+.p-blog, .menu-blog li, .menu-blog, .icono li, .tag p, .btn-blue{
 	display: inline-block;
 }
 .blog-caja{
@@ -253,4 +201,58 @@ footer .nav>li>a:hover {
 .comment {
 	border: 1px solid black;
 	border-radius: 5px;
+
 }
+
+/* Footer */
+
+.pre-footer{
+	background-color: #34495E;
+	padding: 2% 0%;
+}
+footer{
+	background-color: #2C3E50;
+	padding: 1% 0%
+}
+footer p{
+	top: 12px;
+    position: relative;
+
+}
+footer a{
+	color:white;
+}
+footer .nav>li>a:hover {
+    text-decoration: none;
+    background-color: rgba(238, 238, 238, 0.07);
+    color: white;
+}
+.pre-footer, footer{
+	color:white; 
+}
+.pre-footer h3 {
+	margin-bottom: 25px;
+}
+.pre-footer ul {
+	list-style-type: none
+}
+.pre-footer ul li i{
+	margin-right: 10px;
+}
+.pre-footer .box-1{
+	display: inline-block;
+    position: absolute;
+}
+.pre-footer .box-2{
+	display: inline-block;
+    margin-left: 70px;
+}
+.pre-footer .btn{
+	background-color: #D9534F;
+    border-color: transparent;
+    color: white;
+}
+.pre-footer .box-latest{
+	margin-bottom: 2%;
+}
+
