@@ -255,4 +255,136 @@ footer .nav>li>a:hover {
 .pre-footer .box-latest{
 	margin-bottom: 2%;
 }
+/*about us*/
+.centro {
+	background-color: #F5F5F5;
+	padding: 1% 0% 2%;
+}
+.centro .second-row img {
+	border-radius: 100%;
+    padding: 1%;
+    border: 1px solid white;
+    background-color: white;
+}
+.centro .second-row{
+	text-align: center;
+}
+.centro .progress{
+	height: 30px;
+    background-color: white;
+}
+.centro .progress-bar{
+	padding: 1%;
+}
+.centro h2{
+	margin: 5% 0% 2% 0%;
+}
+.centro .second-row .box-img{
+	margin: 4% 0%;
+}
+.centro .second-row .box-img h6{
+	color: gray;
+}
+.centro .second-row .box-img .redes-sociales .rs{
+	border-radius: 100%;
+	width: 40px;
+	height:40px;
+	text-align: center;
+	display: inline-block;
+	text-align: center
+}
+.centro .second-row .box-img .redes-sociales .rs i{
+    top: 10px;
+    position: relative;
+    color: white;
+}
+.centro .fb{
+	background-color: #4F7DD4;
+}
+.centro .google{
+	background-color: #DC422B;
+}
+.centro .in{
+	background-color: #21A6D8; 
+}
+.centro .tw{
+	background-color: #5BCEFF; 
+}
+/*Portfolio*/
+.centro-porta{
+	padding: 4% 0%;
+	background-color: #F5F5F5;
+}
+.centro-porta .box-img{
+	background-color: white;
+    border: 1px solid #cccccc;
+    padding: 3%;
+    margin: 3% 0%;
+}
+.centro-porta .box-img img {
+    width: 100%;
+}
+.centro-porta .box-img p {
+	margin: 10px 0px 0px;
+}
+/*Services*/
+.centro-services{
+	background-color: #F5F5F5;
+	padding: 1% 0% 6%;
+}
+.centro-services .circle-icon{
+	border-radius: 100%;
+    background-color: #939393;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    padding-top: 15px;
+    display: inline-block;
+    position: absolute;
+}
+.centro-services .circle-icon i{
+	font-size: 35px;
+    color: white;
+}
+.centro-services .icon-text{
+	display: inline-block;
+    margin-left: 90px;
+}
+.centro-services h3{
+	margin: 0px 0px 10px
+}
+.centro-services .title-row{
+    text-align: center;
+    margin: 4% 0%;
+}
+.centro-services span{
+	font-size: 0.9em;
+}
+.centro-services .text2{
+    font-size: 1.3em;
+}
+.centro-services .border{
+	border-left: 6px solid #cccccc;
+}
+.centro-services .mg-bt{
+	margin-bottom: 5%;
+}
+/*Contact us*/
+.centro-contact{
+	background-color: #F5F5F5;
+	padding: 5% 0%;
+}
+.centro-contact input{
+	margin-bottom: 15px;
+}
+.centro-contact .btn{
+	background-color: #428BCA;
+	color:white;
+	padding: 
+	border-color:#428BCA;
+	font-size: 1.2em;
+}
+.centro-contact textarea{
+	margin-top: 56px;
+}
 
