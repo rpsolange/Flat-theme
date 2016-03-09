@@ -87,57 +87,140 @@
                                 <a href="#" class="btn-blue">WordPress</a>
                                 <a href="#" class="btn-blue">Joomla</a>
                             </div>
-                            <div class="row post">
-                                <div class="col-md-2">
-                                    <img src="images/blog/avatar.jpg">
+                            
+                            <div class="media comment">
+                                <div class="media-left pull-left">
+                                    <a href="#" class="john-pic">
+                                      <img src="images/blog/avatar.jpg">
+                                    </a>
                                 </div>
-                                <div class="col-md-10">
-                                    <p><strong>John Doe</strong></p>
+                                <div class="media-body">
+                                    <h4 class="media-heading">John Doe</h4>
                                     <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper.</p>
                                 </div>
                             </div>
+
                             <h3>3 Comments</h3>
-                            <div class="row">
-                                <div class="col-md-2">
-                                    <img src="images/blog/avatar1.png">
+                            <ul class="media-list">
+                                <li class="media">
+                                    <div class="media-left pull-left">
+                                        <a href="#">
+                                            <img src="images/blog/avatar1.png" class="foto">
+                                        </a>
+                                    </div>
+                                    <div class="media-body">
+                                        <div class="comment">
+                                            <h4 class="media-heading">John Doe</h4>
+                                            <p>27 Aug 2013</p>
+                                            <a href="#"><i class="icon-repeat"></i>Reply</a>
+                                            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+                                        </div>
+                                        <div class="media">
+                                            <div class="media-left pull-left">
+                                              <a href="#">
+                                                <img src="images/blog/avatar3.png" class="foto">
+                                              </a>
+                                            </div>
+                                            <div class="media-body comment">
+                                                <h4 class="media-heading">John Doe</h4>
+                                                <p>27 Aug 2013</p>
+                                                <a href="#"><i class="icon-repeat"></i>Reply</a>
+                                                <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                            <div class="media">
+                                <div class="media-left pull-left">
+                                    <a href="#">
+                                        <img src="images/blog/avatar2.png" class="foto">
+                                    </a>
                                 </div>
-                                <div class="col-md-10">
-                                    <p><strong>John Doe</strong></p>
+                                <div class="media-body comment">
+                                    <h4 class="media-heading">John Doe</h4>
                                     <p>27 Aug 2013</p>
                                     <a href="#"><i class="icon-repeat"></i>Reply</a>
                                     <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
-                                    <div class="row">
-                                        <div class="col-md-2">
-                                            <img src="images/blog/avatar3.png">
-                                        </div>
-                                        <div class="col-md-10">
-                                            <p><strong>John Doe</strong></p>
-                                            <p>27 Aug 2013</p>
-                                            <a href="#"><i class="icon-repeat"></i>Reply</a>
-                                            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.</p>
-                                        </div>
+                                </div>
+                            </div>
+                            <h3>Leave a comment</h3>
+                            <form class="form-horizontal">
+                                <div class="form-group">
+                                    <div class="col-sm-6">
+                                        <input type="text" class="form-control"placeholder="Name">
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <input type="email" class="form-control" placeholder="Email">
                                     </div>
                                 </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-2">
-                                    <img src="images/blog/avatar2.png">
+                                <div class="form-group">
+                                    <div class="col-sm-12">
+                                        <textarea placeholder="Comment" class="form-control" rows="8"></textarea>
+                                    </div>
                                 </div>
-                                <div class="col-md-10 comment">
-                                    <p><strong>John Doe</strong></p>
-                                    <p>27 Aug 2013</p>
-                                    <a href="#"><i class="icon-repeat"></i>Reply</a>
-                                    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.</p>
-                                </div>
-                            </div>
+                            </form>
+                            <button type="button" class="btn btn-danger">Submit Comment</button>
                         </div>
                     </div>
-                </div>
+                </div> 
                 <div class="col-md-4">
-                    
-                </div>
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Search">
+                        <span class="input-group-btn">
+                            <button class="btn btn-default btn-danger" type="button"><i class="icon-search"></i></button>
+                        </span>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <a href="#"><img src="images/ads/ad1.png" class="picture"></a>
+                        </div>
+                        <div class="col-md-6">
+                            <a href="#"><img src="images/ads/ad2.png" class="picture"></a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <a href="#"><img src="images/ads/ad3.png" class="picture"></a>
+                        </div>
+                        <div class="col-md-6">
+                            <a href="#"><img src="images/ads/ad4.png" class="picture"></a>
+                        </div>
+                    </div>
+                    <h3>Blog Categories</h3>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <ul class="categories">
+                                <li><i class="icon-angle-right"></i>Development</li>
+                                <li><i class="icon-angle-right"></i>Design</li>
+                                <li><i class="icon-angle-right"></i>Updates</li>
+                                <li><i class="icon-angle-right"></i>Tutorial</li>
+                                <li><i class="icon-angle-right"></i>News</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <ul class="categories">
+                                <li><i class="icon-angle-right"></i>Joomla</li>
+                                <li><i class="icon-angle-right"></i>Wordpress</li>
+                                <li><i class="icon-angle-right"></i>Drupal</li>
+                                <li><i class="icon-angle-right"></i>Magento</li>
+                                <li><i class="icon-angle-right"></i>Bootstrap</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <h3>Tag Cloud</h3>
+                    <a href="#" class="btn-blue">CSS3</a>
+                    <a href="#" class="btn-blue">HTML5</a>
+                    <a href="#" class="btn-blue">WordPress</a>
+                    <a href="#" class="btn-blue">Joomla</a>
+                    <a href="#" class="btn-blue">Drupal</a>
+                    <a href="#" class="btn-blue">Bootstrap</a>
+                    <a href="#" class="btn-blue">jQuery</a>
+                    <a href="#" class="btn-blue">Tutorial</a>
+                    <a href="#" class="btn-blue">Update</a>
+                    <h3>Facebook Fanpage</h3>
+                </div>         
             </div>
-            
         </div>
     </section>
 
@@ -219,9 +302,9 @@
                 </div>
                 <div class="col-xs-12 col-md-4 col-md-offset-2">
                     <ul class="nav nav-pills">
-                        <li role="presentation"><a href="#">Home</a></li>
-                        <li role="presentation"><a href="#">About Us</a></li>
-                        <li role="presentation"><a href="#">Contact Us</a></li>
+                        <li role="presentation"><a href="index.html">Home</a></li>
+                        <li role="presentation"><a href="about-us.html">About Us</a></li>
+                        <li role="presentation"><a href="contact-us.html">Contact Us</a></li>
                         <li><a href="#"><i class="icon-chevron-up"></i></a></li>
                     </ul>
                 </div>   
