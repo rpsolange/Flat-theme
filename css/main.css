@@ -36,15 +36,13 @@
 	background-color: #2C3E50;
 }
 /* -- Home Page -- */
-/* Background tiger - section*/
-.carousel-control{
-	width: 10%;
+.tigre{
+	background-image: url("../images/slider/bg1.jpg");
 }
-.carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right{
-	left: 40%;
+.tiger, .man-text{
+	bottom: 40%;
 }
 .tiger{
-	bottom: 40%;
 	text-align: left;
 	left: 10%;
 }
@@ -52,15 +50,26 @@
 	font-size: 2.4em;
 }
 .man{
-	bottom: 40%;
+	background-image: url("../images/slider/bg2.jpg");
 }
-.man p{
-	width: 90%;
-    margin: auto;
+.man-text p, .man-text h2{
+	background-color: rgba(0, 0, 0, 0.7);
+	padding: 1.5%;
 }
-.man h2, .man p{
-	background-color: rgba(0, 0, 0, 0.60);
-	padding: 1%;
+.personas{
+	background-image: url("../images/slider/bg3.jpg");
+}
+.fondo{
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 75vh;
+	background-position: center;
+}
+.carousel-control{
+	width: 10%;
+}
+.carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right{
+	left: 40%;
 }
 /* redes */
 .box-green{
@@ -69,15 +78,18 @@
 	padding: 3% 4%;
 }
 .icon{
-	margin-top: 65%;
-	font-size: 2em;
-	display: flex;
-  	align-items: center;
-   	justify-content: center;
-	width: 55px;
-	height: 55px;
-	border-radius: 50%;
-	background-color: rgba(0, 0, 0, 0.4);
+	position: absolute;
+    font-size: 2em;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    margin-top: 22px;
+    background-color: rgba(0, 0, 0, 0.4);
+    text-align: center;
+    padding-top: 10px;
+}
+.redes{
+	margin-left: 70px;
 }
 /* Lastest Projects - Section */
 .project, .b-gray{
@@ -95,6 +107,11 @@
 	background-color: white;
 	border: 1px solid #EEEEEE;
 }
+.caja p{
+	overflow:hidden;
+    white-space:nowrap;
+    text-overflow: ellipsis;
+}
 /* What our clients say */
 .clients{
 	background-color: #E74C3C;
@@ -110,147 +127,10 @@
 .clients .row p:first-child, .tag p{
 	font-size: 1.3em;
 }
-.clients .row p:last-child, .btn-blue{
+.clients .row p:last-child{
 	font-size: 0.9em;
 }
-/* -- Blog-Item  Page-- */
-.box{
-	background-color: white; 
-	border-radius: 5px;
-	margin-bottom: 5%;
-}
-.box .pic{
-	width: 100%;
-	border-radius: 5px 5px 0 0;
-}
-.p-blog, .menu-blog li, .menu-blog, .icono li, .tag p, .btn-blue, .comment p, .comment h4{
-	display: inline-block;
-}
-.blog-caja{
-	padding: 1% 3% 3%;
-}
-.blog-caja .p-blog{
-	font-size: 1.5em;
-	margin: 3% 0%;
-}
-.menu-blog, .comment a{
-	float: right;
-}
-.menu-blog a{
-	color: white;
-	margin-left: 8px;
-	margin-right: 8px;
-}
-.menu-blog a:hover{
-	color: rgba(255, 255, 255, 0.65);
-	text-decoration: none;
-}
-.icono li a{
-	font-size: 0.9em;
-	color: #999999;
-	margin-right: 14px;
-}
-.tag p, .btn-blue, .comment a i{
-	margin: 0 3px;
-}
-.btn-blue{
-	color: white;
-	background-color: #428BCA;
-	border: 1px solid #357EBD;
-	border-radius: 5px;
-	padding: 2px 5px;
-}
-/* Tags */
-.john-pic{
-	background-color: white;
-	border-radius: 5px;
-	padding: 4%;
-	display: block;
-}
-.comment{
-	background-color: #F5F5F5;
-	padding: 2%;
-	border-radius: 5px;
-}
-.foto{
-	border-radius: 50%;
-}
-.comment a{
-	color: #374B60;
-}
-.picture{
-	width: 100%;
-	border-radius: 5px;
-	margin: 5% 0%;
-}
-/*Blog Categories*/
-.categories{
-	padding-left: 0;
-}
-.categories li i{
-	margin-right: 5px;
-}
-/* Pagination Blog */
-.pagination>li>a:hover{
-	background-color: #34495E;
-	color: white;
-}
-.pagination>li>a{
-	color: #34495E;
-	font-size: 1.4em;
-	border: 0;
-}
-/* Footer */
-.pre-footer{
-	background-color: #34495E;
-	padding: 2% 0%;
-}
-footer{
-	background-color: #2C3E50;
-	padding: 1% 0%
-}
-footer p{
-	top: 12px;
-    position: relative;
-
-}
-footer a{
-	color:white;
-}
-footer .nav>li>a:hover {
-    text-decoration: none;
-    background-color: rgba(238, 238, 238, 0.07);
-    color: white;
-}
-.pre-footer, footer{
-	color:white; 
-}
-.pre-footer h3 {
-	margin-bottom: 25px;
-}
-.pre-footer ul , .categories {
-	list-style-type: none
-}
-.pre-footer ul li i, .comment h4{
-	margin-right: 10px;
-}
-.pre-footer .box-1{
-	display: inline-block;
-    position: absolute;
-}
-.pre-footer .box-2{
-	display: inline-block;
-    margin-left: 70px;
-}
-.pre-footer .btn{
-	background-color: #D9534F;
-    border-color: transparent;
-    color: white;
-}
-.pre-footer .box-latest{
-	margin-bottom: 2%;
-}
-/*about us*/
+/*About us Page*/
 .centro {
 	background-color: #F5F5F5;
 	padding: 1% 0% 2%;
@@ -305,7 +185,90 @@ footer .nav>li>a:hover {
 .centro .tw{
 	background-color: #5BCEFF; 
 }
-/*Portfolio*/
+/* -- Blog-Item  Page-- */
+.box{
+	background-color: white; 
+	border-radius: 5px;
+	margin-bottom: 5%;
+}
+.box .pic{
+	width: 100%;
+	border-radius: 5px 5px 0 0;
+}
+.p-blog, .menu-blog li, .menu-blog, .icono li, .tag p, .comment p, .comment h4{
+	display: inline-block;
+}
+.blog-caja{
+	padding: 1% 3% 3%;
+}
+.blog-caja .p-blog{
+	font-size: 1.5em;
+	margin: 3% 0%;
+}
+.menu-blog, .comment a{
+	float: right;
+}
+.menu-blog a{
+	color: white;
+	margin-left: 8px;
+	margin-right: 8px;
+}
+.menu-blog a:hover{
+	color: rgba(255, 255, 255, 0.65);
+	text-decoration: none;
+}
+.icono li a{
+	font-size: 0.9em;
+	color: #999999;
+	margin-right: 14px;
+}
+.tag p, .comment a i{
+	margin: 0 3px;
+}
+.blue{
+	margin: 1% 0;
+}
+.john-pic{
+	background-color: white;
+	border-radius: 5px;
+	padding: 4%;
+	display: block;
+}
+.comment{
+	background-color: #F5F5F5;
+	padding: 2%;
+	border-radius: 5px;
+}
+.foto{
+	border-radius: 50%;
+}
+.comment a{
+	color: #374B60;
+}
+.picture{
+	width: 100%;
+	border-radius: 5px;
+	margin: 5% 0%;
+}
+.fila-image{
+	margin-top: 5%;
+}
+.categories{
+	padding-left: 0;
+}
+.categories li i{
+	margin-right: 5px;
+}
+.pagination>li>a:hover{
+	background-color: #34495E;
+	color: white;
+}
+.pagination>li>a{
+	color: #34495E;
+	font-size: 1.4em;
+	border: 0;
+}
+/*Portfolio Page*/
 .centro-porta{
 	padding: 4% 0%;
 	background-color: #F5F5F5;
@@ -322,7 +285,7 @@ footer .nav>li>a:hover {
 .centro-porta .box-img p {
 	margin: 10px 0px 0px;
 }
-/*Services*/
+/*Services Page*/
 .centro-services{
 	background-color: #F5F5F5;
 	padding: 1% 0% 6%;
@@ -364,7 +327,7 @@ footer .nav>li>a:hover {
 .centro-services .mg-bt{
 	margin-bottom: 5%;
 }
-/*Contact us*/
+/*Contact us Page*/
 .centro-contact{
 	background-color: #F5F5F5;
 	padding: 5% 0%;
@@ -381,4 +344,63 @@ footer .nav>li>a:hover {
 }
 .centro-contact textarea{
 	margin-top: 56px;
+}
+/* Footer */
+.pre-footer{
+	background-color: #34495E;
+	padding: 2% 0%;
+}
+footer{
+	background-color: #2C3E50;
+	padding: 1% 0%
+}
+footer p{
+	top: 12px;
+    position: relative;
+
+}
+footer a{
+	color:white;
+}
+footer .nav>li>a:hover {
+    text-decoration: none;
+    background-color: rgba(238, 238, 238, 0.07);
+    color: white;
+}
+.pre-footer, footer{
+	color:white; 
+}
+.pre-footer h3 {
+	margin-bottom: 25px;
+}
+.pre-footer ul , .categories {
+	list-style-type: none
+}
+.pre-footer ul li i, .comment h4{
+	margin-right: 10px;
+}
+.pre-footer .box-1{
+	display: inline-block;
+    position: absolute;
+}
+.pre-footer .box-2{
+	display: inline-block;
+    margin-left: 70px;
+}
+.pre-footer .btn{
+	background-color: #D9534F;
+    border-color: transparent;
+    color: white;
+}
+.pre-footer .box-latest{
+	margin-bottom: 2%;
+}
+
+@media (max-width: 600px){
+	.icon{
+		margin-top: 10px;
+	}
+	.project .margen, .borde:first-child{
+		margin-bottom: 5%;
+	}
 }
